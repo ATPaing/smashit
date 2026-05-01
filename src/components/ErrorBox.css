@@ -1,0 +1,16 @@
+.error_box {
+    width: 100%;
+    display: flex;
+    gap: 0.5em;
+    margin-block: 1em;
+    padding: 1em;
+    background-color: hsla(6 100 92 / 50%);
+    color: #93000A
+}
+
+.error_icon {
+    width: 18px;
+    height: 18px;
+    object-fit: contain;
+    flex-shrink: 0;
+}

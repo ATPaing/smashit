@@ -2,14 +2,16 @@
 import { Link } from "react-router-dom";
 
 // logo
-import visual_anchor from "../../src/assets/visual_anchor.svg";
-import person_icon from "../../src/assets/person_icon.svg";
-import email_icon from "../../src/assets/mail_icon.svg";
-import password_icon from "../../src/assets/lock_icon.svg";
-import confirm_icon from "../../src/assets/confirm_icon.svg";
+import visual_anchor from "../assets/visual_anchor.svg";
+import person_icon from "../assets/person_icon.svg";
+import email_icon from "../assets/mail_icon.svg";
+import password_icon from "../assets/lock_icon.svg";
+import confirm_icon from "../assets/confirm_icon.svg";
+
 
 // components
 import SignupInput from "../components/SignupInput";
+// import ErrorBox from "../components/ErrorBox";
 
 // css
 import "./SignUp.css";
@@ -73,6 +75,7 @@ const SignUp = () => {
                             Create account
                         </button>
                     </form>
+                    {/* <ErrorBox message="Error: Please fill in all fields and agree to the terms." /> */}
                     <div className="login_wrapper">
                         Already have an account? &nbsp;{" "}
                         <Link to="/login">Login</Link>

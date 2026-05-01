@@ -4,15 +4,19 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 .signup_container {
     display: flex;
     gap: 5em;
-    height: 90vh;
+    /* max-width: 60vw;  */
+    min-height: 90vh;
     padding: 2em;
     box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.left_panel {
+    width: 350px; 
 }
 
 .title {
@@ -31,45 +35,7 @@ form {
     width: max-content;
 }
 
-.input_container {
-    display: flex;
-    width: calc(400px + 1em);
-    flex-direction: column;
-    margin-top: 1.75em;
-}
 
-.input_container label {
-    font-size: 0.75rem;
-    font-weight: 600;
-    color: #414844;
-}
-
-.input_wrapper {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    height: 50px;
-    border: 1px solid transparent;
-    border-radius: 3px;
-    background: #eff4ff;
-    padding: 1em;
-}
-
-.input_icon {
-    width: 18px;
-    height: 18px;
-    object-fit: contain;
-    flex-shrink: 0;
-}
-
-.input_wrapper input {
-    flex: 1;
-    width: 100%;
-    border: none;
-    outline: none;
-    font-size: 14px;
-    background: transparent;
-}
 
 .password_wrapper {
     display: flex;
@@ -116,12 +82,11 @@ label spam {
 .login_wrapper {
     display: flex;
     justify-content: center;
-}
-
-.login_wrapper {
     margin-top: 1em;
     border-top: 1px solid #e0e0e0;
     padding-top: 1em;
     font-size: 0.85rem;
     color: #414844;
 }
+
+

@@ -1,3 +1,6 @@
+// css
+import "./SignupInput.css";
+
 const SignupInput = ({ label, icon, alt, type, value, onChange, placeholder }) => {
     return (
         <div className='input_container'>
